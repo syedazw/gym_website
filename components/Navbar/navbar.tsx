@@ -89,8 +89,7 @@ const Navbar = () => {
                                     d="M4 6h16M4 12h16m-7 6h7"
                                     />
                                 </svg>
-                            )
-                            }
+                            )}
                         </button>
                     </div>
                 </div>
@@ -107,6 +106,5 @@ const Navbar = () => {
             )} 
         </nav>
         </>
-    )
-} 
+    )} 
 export default Navbar;

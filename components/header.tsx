@@ -5,20 +5,25 @@ import { useEffect, useState } from "react";
 // import Headroom from 'react-headroom';
 
 const Header = () => {
-  //   const [headerActive, setHeaderActive] = useState(false);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     //delete scroll
-  //     setHeaderActive(window.scrollY > 50);
-  //   };
-  //   //add scroll  event
-  //   window.addEventListener('scroll',handleScroll);
 
-  //   //clear scroll event
-  //   return () => {
-  //     window.removeEventListener('scroll',handleScroll);
-  //   };
-  // }, []);
+    // const [headeractive, setHeaderActive] = useState(false);
+
+    // const scrollHeader = () => {
+    //   if (window.scrollY >= 20){
+    //     setHeaderActive(true)
+    //   }else{
+    //     setHeaderActive(false)
+    //   }
+    // }
+    // useEffect(()=> {
+    //   window.addEventListener('scroll',scrollHeader);
+
+    //   return ()=> {
+    //     window.addEventListener('scroll',scrollHeader);
+    //   }
+    // }, []);
+
+
     return (
         <header>
             <div>
