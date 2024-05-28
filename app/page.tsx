@@ -10,7 +10,7 @@ export default function Home() {
   <Hero />
   <Events />
   <Gallery />
-  {/* <About /> */}
+  <About />
   <Quote />
   </main>
   );
