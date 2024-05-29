@@ -5,25 +5,6 @@ import { useEffect, useState } from "react";
 // import Headroom from 'react-headroom';
 
 const Header = () => {
-
-    // const [headeractive, setHeaderActive] = useState(false);
-
-    // const scrollHeader = () => {
-    //   if (window.scrollY >= 20){
-    //     setHeaderActive(true)
-    //   }else{
-    //     setHeaderActive(false)
-    //   }
-    // }
-    // useEffect(()=> {
-    //   window.addEventListener('scroll',scrollHeader);
-
-    //   return ()=> {
-    //     window.addEventListener('scroll',scrollHeader);
-    //   }
-    // }, []);
-
-
     return (
         <header>
             <div>

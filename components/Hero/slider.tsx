@@ -11,17 +11,17 @@ import SwiperNavButton from "./swiper_nav_btn";
 const Slider = () => {
     return (
         <Swiper className="h-full">
-            <SwiperSlide className="h-full flex justify-end pt-48">
+            <SwiperSlide className="h-full flex justify-end pt-39">
                 <div>
-                    <h1 className="h1 p-12">
+                    <h1 className="h1 p-12 text-red-500 text-center">
                         <span>Where hard</span>work meets success
                     </h1>
                 </div>
             </SwiperSlide>
 
-            <SwiperSlide className="h-full flex justify-end pt-48">
+            <SwiperSlide className="h-full flex justify-end pt-39">
                 <div>
-                    <h1 className="h1 p-12">
+                    <h1 className="h1 p-12 text-red-500 text-center">
                         <span>Where hard</span>work meets success
                     </h1>
                 </div>

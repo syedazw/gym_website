@@ -2,39 +2,23 @@
 
 import Link from "next/link";
 import Image from "next/image";
-
-// import {Link as ScrollLink} from 'react-scroll'
-
-// const links =[
-//     {name: 'Home', target: 'home', offset: -100},
-//     {name: 'Events', target: 'events', offset: -80},
-//     {name: 'About', target: 'about', offset: -80},
-//     {name: 'Contact', target: 'contact', offset: 0},
-// ]
-// const Navbar = ({containerStyles}: {containerStyles: string}) => {
-//     return (
-//         <nav className={`${containerStyles}`}>
-//             {links.map((link, index) =>{
-//                 return <ScrollLink 
-//                 offset={link.offset} 
-//                 to={link.target} 
-//                 smooth spy 
-//                 activeClass='active'
-//                 key={index}>
-//                 {link.name}</ScrollLink>
-//             })}
-//         </nav>
-//     )
-// }
-// export default Navbar;
-
 import React, { useState } from "react";
 
 
 const Navbar = () => {
 
-    const [isClick, setisClick] = useState(false);
+    // const [fix, setFix] = useState(false);
+    // const headerfixed = () => {
+    //   if (window.scrollY >= 200){
+    //     setFix(true)
+    //   }else{
+    //     setFix(false)
+    //   }
+    // }
+    // window.addEventListener('scroll',headerfixed);
 
+
+    const [isClick, setisClick] = useState(false);
     const toggleNavbar = () =>{
         setisClick(!isClick)
     }
@@ -43,7 +27,7 @@ const Navbar = () => {
         <nav className="bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-22">
-                    <div className="flex items-center py-2 p-20">
+                    <div className="flex items-center py-2 p-18">
                         <div className="flex-shrink-0">
                         <Link href=''><Image src={'/images/logo.png'} width={90} height={90} alt="" />
                         </Link>
@@ -94,9 +78,11 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+
+            {/* moble navbar */}
             {isClick && (
                 <div className="md:hidden">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <div className="flex flex-col text-center gap-5 px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <a href="" className="text-white block p-2">Home</a>
                         <a href="" className="text-white block p-2">Events</a>
                         <a href="" className="text-white block p-2">About</a>
