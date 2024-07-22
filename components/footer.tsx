@@ -17,7 +17,7 @@ const Footer = () => {
                         <Link href={''}> <Image src={'/images/logo.png'} width={90} height={90} alt=""/></Link>
                         <p className="max-w-sm py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at dignissimos esse atque fugit similique!</p>
                         <ul className="flex flex-col gap-4 py-5">
-                            <li className="flex items-center gap-4">
+                            <li className="flex items-center gap-4">    
                                 <FaMapMarkerAlt  className="text-xl text-red-500"/>
                                 <span>North Nazimbad Block-04, Karachi</span>
                             </li>

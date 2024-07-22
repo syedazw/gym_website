@@ -27,15 +27,16 @@ const Navbar = () => {
         <nav className="bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-22">
-                    <div className="flex items-center py-2 p-18">
+                    <div className="flex items-center py-2 p-1">
                         <div className="flex-shrink-0">
                         <Link href=''><Image src={'/images/logo.png'} width={90} height={90} alt="" />
                         </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <div className="ml-4 flex items-center space-x-4 ">
+                        <div className="ml-5 flex items-center space-x-4">
                             <a href="" className="text-white p-2">Home</a>
+                            <a href="" className="text-white p-2">Services</a>
                             <a href="" className="text-white p-2">Events</a>
                             <a href="" className="text-white p-2">About</a>
                             <a href="" className="text-white p-2">Contact</a>
@@ -84,6 +85,7 @@ const Navbar = () => {
                 <div className="md:hidden">
                     <div className="flex flex-col text-center gap-5 px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <a href="" className="text-white block p-2">Home</a>
+                        <a href="" className="text-white block p-2">Services</a>
                         <a href="" className="text-white block p-2">Events</a>
                         <a href="" className="text-white block p-2">About</a>
                         <a href="" className="text-white block p-2">Contact</a>

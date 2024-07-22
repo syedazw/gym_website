@@ -1,5 +1,5 @@
 import About from "@/components/about";
-import Events from "@/components/events";
+import Events from "@/components/Events/events";
 import Gallery from "@/components/gallery";
 import Hero from "@/components/Hero/hero";
 import Quote from "@/components/quotation";
@@ -10,7 +10,6 @@ export default function Home() {
   <Hero />
   <Events />
   <Gallery />
-  <About />
   <Quote />
   </main>
   );

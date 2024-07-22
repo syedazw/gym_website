@@ -16,7 +16,7 @@
     }
 
     .h2{
-        @apply text-[36px];
+        @apply text-center text-[36px];
     }
 
     .h3{

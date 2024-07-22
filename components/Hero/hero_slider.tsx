@@ -13,7 +13,7 @@ const Slider = () => {
         <Swiper className="h-full">
             <SwiperSlide className="h-full flex justify-end pt-39">
                 <div>
-                    <h1 className="h1 p-12 text-red-500 text-center">
+                    <h1 className="h1 p-12 text-gray-500 text-center">
                         <span>Where hard</span>work meets success
                     </h1>
                 </div>
